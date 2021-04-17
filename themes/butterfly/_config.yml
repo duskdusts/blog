@@ -788,7 +788,16 @@ note:
 
 # other
 # --------------------------------------
-
+hpptalk:
+  enable: true 
+  domain: hexo.duskdust.workers.dev
+  path:
+  limit:
+  start:
+  js:
+  css:
+  option:
+  front_matter:
 # Pjax
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
