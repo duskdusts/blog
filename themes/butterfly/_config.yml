@@ -417,7 +417,7 @@ crisp:
 # Footer Settings
 # --------------------------------------
 footer:
-  owner: duskdust
+  owner: 
     enable: true
     since: 2018
   custom_text: Thanks to Github&jsdelivr&Cloudflare Pages
