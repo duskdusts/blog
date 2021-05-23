@@ -417,10 +417,10 @@ crisp:
 # Footer Settings
 # --------------------------------------
 footer:
-  owner:
+  owner: duskdust
     enable: true
-    since: 2020
-  custom_text:
+    since: 2018
+  custom_text: Thanks to Github&jsdelivr&Cloudflare Pages
   copyright: true # Copyright of theme and framework
 
 # Analysis
