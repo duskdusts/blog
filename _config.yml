@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://duskdust.pages.dev
+url: https://duskdust.eu.org
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -100,6 +100,13 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: false
+  tags: true
+  categories: true
+  
 search:
   path: search.xml
   field: post
