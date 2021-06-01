@@ -34,6 +34,7 @@ jobs:
           git config --global user.name "duskdust"
           npm install hexo-cli -g
           npm install
+          npm install hexo-generator-sitemap --save
 
       - name: Deploy
         run: |
