@@ -1,6 +1,6 @@
 ---
 title: c语言编程题1
-date: {{ date }}
+date: 2021-06-06
 tags: code
 ---
 # 1. 单词检查
