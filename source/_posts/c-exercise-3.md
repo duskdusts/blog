@@ -1,6 +1,6 @@
 ---
 title: C语言编程题3
-date: {{ date }}
+date: 2020-06-06
 tags: code
 ---
  # 31. n的阶乘
