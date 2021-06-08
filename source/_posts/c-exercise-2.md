@@ -1,6 +1,6 @@
 ---
 title: c语言编程题2
-date: {{ date }}
+date: 2020-06-06
 tags: code
 ---
  # 16. 单词索引编排（非文件）
