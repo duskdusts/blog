@@ -43,7 +43,6 @@ if (is_home()) pageTitle = config.title;
                 s.parentNode.insertBefore(hm, s);
             })();
         </script>
-        
     <% } %> -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -55,7 +54,6 @@ if (is_home()) pageTitle = config.title;
 
         gtag('config', 'UA-123139263-1');
     </script>
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 </head>
 <body>
     <div class="container">
@@ -113,11 +111,7 @@ if (is_home()) pageTitle = config.title;
             <div class="footer-inner">
                 <span class="footer-other">
                     <%-theme.footer_expand%>
-                    <%= __('misc.theme')%> <a href="https://github.com/isecret/Hola">Hola</a> / <a href="http://hexo.io">Hexo</a>,
-                     <span id="<%=url%>" class="leancloud_visitors">
-    <em class="post-meta-item-text">PV </em>
-    <a href=""><i class="leancloud-visitors-count"></i></a>.
-</span>
+                    <%= __('misc.theme')%> <a href="https://github.com/isecret/Hola">Hola</a> / <a href="http://hexo.io">Hexo</a>.
                 </span>
                 <!-- <label id="theme-switch" class="theme-switch" for="checkbox_theme">
                     <input type="checkbox" id="checkbox_theme">
@@ -130,7 +124,21 @@ if (is_home()) pageTitle = config.title;
             <script src="<%=url%>"></script>
         <% }); %>
     <% } %>
-
+    <% if (is_post() || is_page()) { %>
+        <script>
+            var gitment = new Gitment({
+                id: window.location.pathname.replace(/(\/$)/g,"").length > 49 ? md5(window.location.pathname): window.location.pathname.replace(/(\/$)/g,""),
+                owner: "<%=theme.gitment.owner%>",
+                repo: "<%=theme.gitment.repo%>",
+                oauth: {
+                    client_id: "<%=theme.gitment.client_id%>",
+                    client_secret: "<%=theme.gitment.client_secret%>"
+                },
+                perPage: 10
+            });
+            gitment.render("gitment");
+        </script>
+    <% } %>
     <script>
 
         // 切换模式
@@ -198,6 +206,8 @@ if (is_home()) pageTitle = config.title;
             element: document.getElementsByTagName('article')[0]
         });
     </script>
+    <div class="valine"></div>
+<script src='https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js'></script>
     <script>
             new Valine({
                 el:'#valine',
