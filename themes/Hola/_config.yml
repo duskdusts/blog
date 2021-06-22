@@ -14,7 +14,7 @@ menu:
 
 # 联系方式
 social:
-  QQ:
+  QQ:296748025
   邮箱:
   微博:
   GitHub:
@@ -25,7 +25,7 @@ social:
 footer_wordcount: enabled
 
 # 底部版权补充
-footer_expand: 'Hosted by <a href="https://pages.coding.me">Coding Pages</a>, '
+footer_expand: 'Hosted by <a href="https://pages.dev">CloudFlare Pages</a>, '
 
 # 站点微缩图
 favicon: /favicon.ico
