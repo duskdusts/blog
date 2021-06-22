@@ -55,11 +55,7 @@ if (is_home()) pageTitle = config.title;
 
         gtag('config', 'UA-123139263-1');
     </script>
-    <style>
-        #waline-recent img {max-width: 100%;}
-        #waline-recent li {border: thick double #32a1ce;}
-    </style>
-    <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 </head>
 <body>
     <div class="container">
@@ -203,10 +199,8 @@ if (is_home()) pageTitle = config.title;
         });
     </script>
     <script>
-            //这一段是初始化Waline的,visitor: true记得开启
-            new Waline({
-                el:'#waline',
-                serverURL: 'https://waline-gold.vercel.app/',
+            new Valine({
+                el:'#valine',
                 appId: 'zinrpnWEAp3Kxf909ib4zoVg-MdYXbMMI',
                 appKey: 'OypFDECtu0M5LHNsSxtKYgIS',
                 avatar:'retro',
@@ -216,14 +210,6 @@ if (is_home()) pageTitle = config.title;
                 //path:"/",
                 placeholder:"Just Go Go..."
             })
-            //这一段是加载最近评论的
-            window.addEventListener('load', function() {
-              Waline.Widget.RecentComments({
-                el: '#waline-recent',
-                serverURL: 'https://waline-gold.vercel.app',
-                count: 10
-              });
-            });
         </script>
 </body>
 </html>
