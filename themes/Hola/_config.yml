@@ -7,10 +7,10 @@ since: 2016
 
 # 导航栏
 menu:
-  homepage: /
-  About: /about
+  Homepage: /
+  Tags: /tags
   Links: /links
-  API: https://openapi.link/
+  About: /about
 
 # 联系方式
 social:
@@ -25,7 +25,7 @@ social:
 footer_wordcount: enabled
 
 # 底部版权补充
-footer_expand: 'Hosted by <a href="https://pages.dev">CloudFlare Pages</a>, '
+footer_expand: 'Hosted by <a href="https://pages.dev">CloudFlare Pages</a>&<a href="https://vercel.com">Vercel</a>, '
 
 # 站点微缩图
 favicon: /favicon.ico
