@@ -25,7 +25,7 @@ social:
 footer_wordcount: enabled
 
 # 底部版权补充
-footer_expand: 'Hosted by <a href="https://pages.dev">CloudFlare Pages</a>&<a href="https://vercel.com">Vercel</a>, '
+footer_expand: 'Hosted by <a href="https://pages.dev">CloudFlare Pages</a> & <a href="https://vercel.com">Vercel</a>, '
 
 # 站点微缩图
 favicon: /favicon.ico
