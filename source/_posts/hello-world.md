@@ -1,5 +1,6 @@
 ---
 title: Hello World
+date: 2018-07-10
 top_img: false
 mathjax: true
 ---
