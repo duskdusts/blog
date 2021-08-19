@@ -14,8 +14,6 @@ ChemicalBook https://m.chemicalbook.com/ProductIndex.aspx
 RSS https://rss.othing.xyz/p/i/
 DeepL https://www.deepl.com/translator
 ### 折腾向
-cdn 清理 https://dwz.cn/78w8lWCu
-cnd 管理 https://cdn.bnxb.com/
 pic https://yidas.cn/tools/githubhosting/index.html
 快云 https://storage.zzidc.com/storage/listObjects?ywbh=18807&bucketName=czy
 Sakura frp https://www.natfrp.com/
