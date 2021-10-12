@@ -12,11 +12,13 @@ tags: perf
  - python
  - dev cpp
  - ~~anaconda~~
+
 ### p&v
 - solidworks
 - cad 
 - SAI2
 - shotcut&小丸工具箱
+
 ### tool
 - firefox
 - [xdown](https://xdown.org/)&<font color="red">qbittorrent</font>
