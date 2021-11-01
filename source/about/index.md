@@ -10,3 +10,5 @@
 other
 - v2ex[duskdust](https://www.v2ex.com/member/duskdust)
 - ...
+ ## 小玩具
+ [server status](https://stats.uptimerobot.com/VnvGlFlVAR)
