@@ -30,7 +30,7 @@ Sakura frp https://www.natfrp.com/
 
 ### 个人博客
 
-YAmdr https://www.yamdr.cn
+~~YAmdr https://www.yamdr.cn~~
 神秘人物 https://blog.othing.xyz/
 hk-shao https://hk-shao.github.io
 廖雪峰 https://www.liaoxuefeng.com/
