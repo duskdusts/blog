@@ -8,7 +8,7 @@ title: Links
 ~~好奇心日报 http://m.qdaily.com/~~
 
 ~~ReadHub https://www.readhub.cn/topics~~
-China Daily https://feedx.xyz/read?r=cddual
+China Daily https://feedx.top/read?r=cddual
 ~~国家地理中文网 http://m.ngchina.com.cn/~~
 
 ### 学习向
