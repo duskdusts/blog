@@ -117,5 +117,3 @@ deploy:
   type: git
   repo: 
    github: git@github.com:duskdusts/duskdusts.github.io.git,master
-   gitee: https://gitee.com/duskdust/duskdust.git,master
-   coding.net:https://e.coding.net/duskdust/duskdust.git,master
