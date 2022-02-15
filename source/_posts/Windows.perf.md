@@ -12,7 +12,7 @@ tags: perf
  - matlab
  - python
  - dev cpp
- - ~~anaconda~~
+ - anaconda
 
 ### p&v
 - solidworks
@@ -47,3 +47,4 @@ tags: perf
 - 磁贴管理
 - 状态栏调整
 - 
+
