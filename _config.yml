@@ -6,14 +6,14 @@
 title: duskdust's blog
 subtitle: '请往前走，不要回头 。'
 description: ''
-keywords:
+keywords: 
 author: duskdust
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://duskdust.eu.org
+url: https://duskdust.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
