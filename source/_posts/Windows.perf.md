@@ -37,11 +37,12 @@ tags: perf
 - ~~everything~~
 - 高漫驱动
 - geekuninstall&火绒
+- D-Dir http://q-dir.com/
 - qq&微信uwp(微软应用商店）
 - Fluent terminal
 - 自动夜间 ﻿https://github.com/AutoDarkMode/Windows-Auto-Night-Mode
 - <font color="green">xmind</font>
-- v2ray&<font color="red">clash</font>
+- v2ray&<font color="red">clash</font> https://github.com/2dust/v2rayNG
 
 ## other
 - 磁贴管理
