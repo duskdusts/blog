@@ -8,7 +8,7 @@ tags: perf
 ### code
  - pycharm&idea
  - vscode
- - - Vitesse Theme 
+ - - Vitesse Theme https://marketplace.visualstudio.com/items?itemName=antfu.theme-vitesse
  - typora
  - matlab
  - python
