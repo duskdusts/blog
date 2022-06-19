@@ -115,10 +115,11 @@ if (is_home()) pageTitle = config.title;
         <% }); %>
     <% } %>
     <% if (is_post() || is_page()) { %>
-        <script src="https://cdn.bootcdn.net/ajax/libs/waline/2.5.1/legacy.js"></script>
+        <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+        <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
         <div id="waline"></div>
         <script>
-          Waline({
+          Waline.init({
             el: '#waline',
             serverURL: 'https://dwaline.vercel.app',
             recordIP:false,
