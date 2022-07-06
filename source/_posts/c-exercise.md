@@ -799,7 +799,7 @@ Yes is the abbreviation of American Bankers Association.
 3 5
  
 【样例输出】
- ![](https://raw.2233.eu.org/duskdusts/blog/master/source/img/1622555594000.png)
+ ![](/img/1622555594000.png)
 【样例说明】
  
 样例输入的起始数为3，方阵的阶数为5，按行输出生成的折叠方阵，每个数字占4个字符的宽度。
@@ -1234,11 +1234,11 @@ n*k=m
 
 例如：如果明码为：helloworld，将明码中重复字母去掉后为：helowrd，将不在明码中的小写字母按照升序添加在明码后，即形成字符串：helowrdabcfgijkmnpqstuvxyz，该字符串形成的环如下图所示：
 
-![](https://raw.2233.eu.org/duskdusts/blog/master/source/img/1622556227000.png)
+![](/img/1622556227000.png)
 
 明码的第一个字母为h，h也是环的起始位置。h的ASCII码制为104，先把h从环中删除，再从下一个字母e开始顺时针沿着环按其ASCII值移动位置标识（即移动位置标识104次）至字母w，则h的密文字符为w。w的ASCII码制为119，然后将w从环中删除，再从下一个字母r开始顺时针沿着环移动位置标识119次至字母为l，则w的密文字符为l。依次按照同样方法找到其它字母的密文字符。环中剩下的最后一个字母为x，则x的密文字符为明码的第一个字母h。按照这种方法形成的密文转换字符表为：
 
-![](https://raw.2233.eu.org/duskdusts/blog/master/source/img/1622556279000.png)
+![](/img/1622556279000.png)
 
 上方为原文字符，下方为对应的密文字符。
 
@@ -1419,7 +1419,7 @@ l  如果是运算符，就从栈中弹出指向两棵树T1和T2的指针（T1�
 
 则生成的表达式树为：
 
-![](https://raw.2233.eu.org/duskdusts/blog/master/source/img/1622556643000.png)
+![](/img/1622556643000.png)
 
 【输入形式】
 
@@ -1529,7 +1529,7 @@ ex402.c
  # 37. 数列前n项和
 【问题描述】
 写一个函数，求解以下数列前n项之和并输出，其中n（正整数）应从键盘输入。
-![](https://raw.2233.eu.org/duskdusts/blog/master/source/img/1622556752000.png)
+![](/img/1622556752000.png)
 
 【源文件名】
 
@@ -1627,7 +1627,7 @@ ex406.c
 使用递归方法求n阶勒让德多项式的值，递归公式为：
 
 
-![](https://raw.2233.eu.org/duskdusts/blog/master/source/img/1622556860000.png)
+![](/img/1622556860000.png)
 其中：n和x为int型；Pn(x)为float型。
 
 
@@ -1835,7 +1835,7 @@ ex404.c
 
 第一行的6表示要对6个不同的字符进行编码，后面每行中冒号（:）左边的字符为待编码的字符，右边为其Huffman编码，冒号两边无空格。对于该编码表，对应的Huffman树（树中左分支表示0，右分支表示1）应为：
 
-![](https://raw.2233.eu.org/duskdusts/blog/master/source/img/1622557028000.jpg)
+![](/img/1622557028000.jpg)
 
 假如Huffman编码文件的内容（由0和1字符组成的序列）为：
 
@@ -1847,7 +1847,7 @@ ex404.c
 
 解码过程中，经过Huffman树中各结点的遍历次数见下图中结点中的数字：
 
-![](https://raw.2233.eu.org/duskdusts/blog/master/source/img/1622557052000.jpg)
+![](/img/1622557052000.jpg)
 
 对该Huffman树中各结点的访问次数按照前序遍历序列输出应为：
 
