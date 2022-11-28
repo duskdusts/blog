@@ -10,7 +10,7 @@ comments:
   # giscus
   # https://giscus.app/zh-CN
   giscus:
-    data-repo: https://github.com/duskdusts/duskdusts.github.io
+    data-repo: duskdusts/duskdusts.github.io
     data-repo-id: MDEwOlJlcG9zaXRvcnkyNTg4MjY4NDg=
     data-category: Q&A
     data-category-id: DIC_kwDOD21iYM4CSywN
