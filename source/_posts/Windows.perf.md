@@ -12,7 +12,6 @@ tags: perf
  - typora
  - matlab
  - python
- - dev cpp
  - anaconda
 
 ### p&v
@@ -38,8 +37,8 @@ tags: perf
 - ~~everything~~
 - 高漫驱动
 - geekuninstall&火绒
-- D-Dir http://q-dir.com/
-- qq&微信uwp(微软应用商店）
+- Q-Dir http://q-dir.com/
+- TIM&微信uwp(微软应用商店）
 - Fluent terminal
 - 自动夜间 ﻿https://github.com/AutoDarkMode/Windows-Auto-Night-Mode
 - <font color="green">xmind</font>
