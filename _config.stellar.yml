@@ -1,0 +1,25 @@
+sidebar:
+  menu:
+    post: '[btn.blog](/)'
+    notes: '[笔记](/notes/)'
+    wiki: '[btn.wiki](/wiki/)'
+    more: '[更多](/more/)'
+    about: '[关于](/about/)'
+comments:
+  service: giscus
+  # giscus
+  # https://giscus.app/zh-CN
+  giscus:
+    data-repo: https://github.com/duskdusts/duskdusts.github.io
+    data-repo-id: MDEwOlJlcG9zaXRvcnkyNTg4MjY4NDg=
+    data-category: Q&A
+    data-category-id: DIC_kwDOD21iYM4CSywN
+    data-mapping: pathname
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top # top, bottom
+    data-theme: preferred_color_scheme
+    data-lang: zh-CN
+    data-loading: lazy
+    crossorigin: anonymous
