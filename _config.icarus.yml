@@ -1,0 +1,87 @@
+version: 5.0.0
+variant: default
+logo:
+    text: duskdust's blog
+    head:
+    favicon: /img/favicon.svg
+head:
+    open_graph:
+        # 页面标题 (og:title) (可选)
+        title: 
+        # 页面类型 (og:type) (可选)
+        type: blog
+        # 页面URL地址 (og:url) (可选)
+        url: 
+        # 页面封面图 (og:image) (可选)
+        image: 
+        # 站点名称 (og:site_name) (可选)
+        site_name: 
+        # 页面作者 (article:author) (可选)
+        author: 
+        # 页面描述 (og:description) (可选)
+        description: 
+        # Twitter卡片类型 (twitter:card)
+        twitter_card: 
+        # Twitter ID (twitter:creator)
+        twitter_id: 
+        # Twitter站点 (twitter:site)
+        twitter_site: 
+        # Google+个人主页链接 (已弃用)
+        google_plus: 
+        # Facebook admin ID
+        fb_admins: 
+        # Facebook App ID
+        fb_app_id: 
+    rss: /path/to/atom.xml
+navbar:
+    # 导航栏菜单项
+    menu:
+        主页: /
+        归档: /archives #归档
+        分类: /categories #分类
+        标签: /tags 
+        关于: /about
+    # 导航栏右侧的链接
+    links:
+        GitHub: 'https://github.com'
+        Download on GitHub:
+            icon: fab fa-github
+            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+footer:
+    copyright: <a href="https://icp.gov.moe/?keyword=20220678" target="_blank">萌ICP备20220678号</a> Hosted by <a href="https://pages.dev">CloudFlare Pages</a> & <a href="https://vercel.com">Vercel</a>,
+    links:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: 'https://creativecommons.org/'
+        Attribution 4.0 International:
+            icon: fab fa-creative-commons-by
+            url: 'https://creativecommons.org/licenses/by/4.0/'
+        Download on GitHub:
+            icon: fab fa-github
+            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+article:
+    highlight:
+        # 代码高亮主题
+        # https://github.com/highlightjs/highlight.js/tree/master/src/styles
+        theme: atom-one-light
+        # 显示复制代码按钮
+        clipboard: true
+        # 代码块的默认折叠状态。可以是"", "folded", "unfolded"
+        fold: unfolded
+    readtime: true
+    update_time: true
+    # 文章许可协议
+    licenses:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: 'https://creativecommons.org/'
+        'CC BY-NC-SA 4.0': 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
+sidebar:
+    left:
+        sticky: false
+    right:
+        sticky: true
+providers:
+    cdn: unpkg
+    fontcdn: ustc
+    iconcdn: fontawesome
