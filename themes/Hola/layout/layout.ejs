@@ -44,6 +44,16 @@ if (is_home()) pageTitle = config.title;
             })();
         </script>
     <% } %> -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123139263-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-123139263-1');
+    </script>
 </head>
 <body>
     <div class="container">
@@ -115,21 +125,18 @@ if (is_home()) pageTitle = config.title;
         <% }); %>
     <% } %>
     <% if (is_post() || is_page()) { %>
-        <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
-        <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
-        <div id="waline"></div>
         <script>
-          Waline.init({
-            el: '#waline',
-            serverURL: 'https://dwaline.vercel.app',
-            recordIP:false,
-            requiredFields:['nick'],
-            visitor: true,
-            emoji: [
-    '//unpkg.com/@waline/emojis@1.0.1/weibo',
-    '//unpkg.com/@waline/emojis@1.0.1/bilibili',
-  ],
-          });
+            var gitment = new Gitment({
+                id: window.location.pathname.replace(/(\/$)/g,"").length > 49 ? md5(window.location.pathname): window.location.pathname.replace(/(\/$)/g,""),
+                owner: "<%=theme.gitment.owner%>",
+                repo: "<%=theme.gitment.repo%>",
+                oauth: {
+                    client_id: "<%=theme.gitment.client_id%>",
+                    client_secret: "<%=theme.gitment.client_secret%>"
+                },
+                perPage: 10
+            });
+            gitment.render("gitment");
         </script>
     <% } %>
     <script>

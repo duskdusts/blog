@@ -49,18 +49,21 @@ gitment:
 # 腾讯统计
 tencent_analytics: 65849732
 
-# CSS 样式表路径
 stylesheets:
 - /css/fonts.css
 - /css/font-awesome.min.css
-- /css/highlight.css
 - /css/hola.css
+- /css/gitment.css
+- /css/highlight.css
+- /css/alu.css
 
 # Javascript 脚本路径
 scripts:
 - /js/jquery.min.js
 - /js/fetch.min.js
 - /js/md5.min.js
-- /js/instantclick.min.js
+# - /js/instantclick.min.js
+- /js/gitment.browser.min.js
+- /js/alu.js
 - /js/hola.js
-  
+# - /js/jquery.pjax.js
