@@ -41,10 +41,10 @@ baidu_verification: izYGvTM67i
 
 # Gitment
 gitment:
-  owner: isecret
-  repo: comments
-  client_id: fd2eb35d0541586fff12
-  client_secret: fa17cd5c6e7d5740eef3095b2de3bc196c655b1a
+  owner: duskdusts
+  repo: blog
+  client_id: 005178215c5a0d188b5f
+  client_secret: 71ee6ef4531c80f86f00b7d831a5eaef96188ef3
 
 # 腾讯统计
 tencent_analytics: 65849732
