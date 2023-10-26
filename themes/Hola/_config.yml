@@ -39,12 +39,6 @@ hitokoto: disabled
 # 百度站点验证
 baidu_verification: izYGvTM67i
 
-# Gitment
-gitment:
-  owner: duskdusts
-  repo: duskdusts.github.io
-  client_id: 005178215c5a0d188b5f
-  client_secret: 71ee6ef4531c80f86f00b7d831a5eaef96188ef3
 
 # 腾讯统计
 tencent_analytics: 65849732
