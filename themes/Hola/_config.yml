@@ -31,7 +31,7 @@ footer_expand: '<script type="text/javascript">
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "jt84vv66an");
-</script><a href="https://icp.gov.moe/?keyword=20220678" target="_blank">萌ICP备20220678号</a> <a style="text-decoration:none;color:tomato;" href="https://travel.moe/go.html?travel=on" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank">异次元之旅</a> Hosted by <a href="https://pages.dev">CloudFlare Pages</a> & <a href="https://vercel.com">Vercel</a>, '
+</script><a href="https://icp.gov.moe/?keyword=20220678" target="_blank">萌ICP备20220678号</a> <a style="text-decoration:none;color:tomato;" href="https://travel.moe/go.html?travel=on" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank">异次元之旅</a> Hosted by <a href="https://pages.dev">CloudFlare Pages</a> & <a href="https://azure.microsoft.com/zh-cn/">Microsoft Azure</a>, '
 
 # 站点微缩图
 favicon: /favicon.ico
