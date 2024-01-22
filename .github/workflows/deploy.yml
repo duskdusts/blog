@@ -53,6 +53,15 @@ jobs:
           # 注意替换为你的 Gitee 目标仓库地址
           destination-repo: git@gitee.com:duskdust/duskdust.git
 
+      - name: Publish to Azure Static Web Apps
+        uses: azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          repo_token: ${{ secrets.HEXO_DEPLOY_KEY }} 
+          app_location: /
+          app_build_command: ''
+          output_location: /
+
       - name: Build Gitee Pages
         uses: yanglbme/gitee-pages-action@main
         with:
@@ -65,11 +74,3 @@ jobs:
           # 要部署的分支，默认是 master，若是其他分支，则需要指定（指定的分支必须存在）
           branch: master
 
-      - name: Publish to Azure Static Web Apps
-        uses: azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.HEXO_DEPLOY_KEY }} 
-          app_location: /
-          app_build_command: ''
-          output_location: /
