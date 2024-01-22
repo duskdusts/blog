@@ -69,6 +69,7 @@ jobs:
         uses: azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.HEXO_DEPLOY_KEY }}            app_location: /
+          repo_token: ${{ secrets.HEXO_DEPLOY_KEY }} 
+          app_location: /
           app_build_command: ''
           output_location: /
