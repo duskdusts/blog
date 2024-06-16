@@ -71,60 +71,6 @@
         async>
 </script>
 
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>
-        window.MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']],
-                displayMath: [['$$', '$$'], ['\\[', '\\]']],
-                processEscapes: true,
-                processEnvironments: true
-            },
-            options: {
-                renderActions: {
-                    findScript: [10, function (doc) {
-                        document.querySelectorAll('script[type^="math/tex"], script[type^="math/tex;mode=display"]').forEach(function (node) {
-                            const display = !!node.type.match(/; *mode=display/);
-                            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-                            const text = document.createTextNode('');
-                            node.parentNode.replaceChild(text, node);
-                            math.start = {node: text, delim: '', n: 0};
-                            math.end = {node: text, delim: '', n: 0};
-                            doc.math.push(math);
-                        });
-
-                        document.querySelectorAll('p').forEach(function (node) {
-                            const displayMathRegex = /\$\$(.*?)\$\$/g;
-                            const inlineMathRegex = /\$(.*?)\$/g;
-
-                            let textContent = node.innerHTML;
-                            let match;
-
-                            // Process display math
-                            while (match = displayMathRegex.exec(textContent)) {
-                                const math = new doc.options.MathItem(match[1], doc.inputJax[0], true);
-                                const text = document.createTextNode('');
-                                textContent = textContent.replace(match[0], text.textContent);
-                                math.start = {node: text, delim: '', n: 0};
-                                math.end = {node: text, delim: '', n: 0};
-                                doc.math.push(math);
-                            }
-
-                            // Process inline math
-                            while (match = inlineMathRegex.exec(textContent)) {
-                                const math = new doc.options.MathItem(match[1], doc.inputJax[0], false);
-                                const text = document.createTextNode('');
-                                textContent = textContent.replace(match[0], text.textContent);
-                                math.start = {node: text, delim: '', n: 0};
-                                math.end = {node: text, delim: '', n: 0};
-                                doc.math.push(math);
-                            }
-
-                            node.innerHTML = textContent;
-                        });
-                    }, '']
-                }
-            }
-        };
-    </script>
+<% if (theme.mathjax){ %>
+  <%- partial('mathjax') %>
+<% } %>
