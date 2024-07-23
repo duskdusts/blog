@@ -71,6 +71,6 @@
         async>
 </script>
 
-<% if (theme.mathjax){ %>
-  <%- partial('mathjax') %>
-<% } %>
+        <% if (theme.mathjax.enable) { %>
+            <%- include('mathjax') %>
+        <% } %>
