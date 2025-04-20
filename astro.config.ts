@@ -8,6 +8,7 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://miruka.de',
+  base: '/',
   integrations: [
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
