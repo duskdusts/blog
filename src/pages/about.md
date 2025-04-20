@@ -1,36 +1,42 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "关于"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+万里归来颜愈少，微笑，笑时犹带岭梅香。
+试问岭南应不好，却道：此心安处是吾乡。
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+## 🏠 关于本站
+个人非常喜欢数学女孩系列书籍，miruka原为数学女孩中米尔嘉(ミルカさん)的罗马音，域名也就由此而来。
+本站记录一些生活随想，杂七杂八的内容。
+## 👨‍💻 博主是谁
+机械研一，MEMS，热衷于复制粘贴，熟练于摸鱼吹水。
+## ⛹ 兴趣爱好
+看番
+## 📬 联系我呀
+较为活跃
+- email: czy#live.hk
+- github: [duskdusts](https://github.com/duskdusts)
+- gitee: [duskdust](https://gitee.com/duskdust)
+- coolapk: [duskdust_](http://www.coolapk.com/u/824806)
+- 52pojie: [duskdust](https://www.52pojie.cn/home.php?mod=space&uid=2214721)
+其他
+- v2ex [duskdust](https://www.v2ex.com/member/duskdust)
+- nodeseek [duskdust](https://www.nodeseek.com/space/9532)
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
-<div>
-  <img src="/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
-
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+<script src="https://giscus.app/client.js"
+        data-repo="duskdusts/duskdusts.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyNTg4MjY4NDg="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOD21iYM4CSywL"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
