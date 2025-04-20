@@ -11,7 +11,7 @@ import { SITE } from "@/config";
 export const SOCIALS = [
   {
     name: "Github",
-    href: "https://github.com/duskdust",
+    href: "https://github.com/duskdusts",
     linkTitle: ` ${SITE.title} on Github`,
     icon: IconGitHub,
   },
