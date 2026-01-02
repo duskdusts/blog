@@ -6,15 +6,16 @@ import remarkCollapse from "remark-collapse";
 import { SITE } from "./src/config";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
+import vercel from "@astrojs/vercel";
+
+import decapCmsOauth from "astro-decap-cms-oauth";
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://miruka.de',
-  integrations: [
-    sitemap({
-      filter: page => SITE.showArchives || !page.endsWith("/archives"),
-    }),
-  ],
+  integrations: [sitemap({
+    filter: page => SITE.showArchives || !page.endsWith("/archives"),
+  }), decapCmsOauth()],
   markdown: {
     remarkPlugins: [remarkMath, remarkToc, [remarkCollapse, { test: "Table of contents" }]],
     rehypePlugins: [rehypeKatex], 
@@ -40,4 +41,6 @@ export default defineConfig({
     responsiveImages: true,
     preserveScriptOrder: true,
   },
+  output: 'server',
+  adapter: vercel(),
 });

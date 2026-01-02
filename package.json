@@ -15,9 +15,11 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/vercel": "^9.0.2",
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.0.14",
     "astro": "^5.5.2",
+    "astro-decap-cms-oauth": "^0.5.1",
     "dayjs": "^1.11.13",
     "katex": "^0.16.22",
     "lodash.kebabcase": "^4.1.1",
