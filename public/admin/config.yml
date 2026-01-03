@@ -20,9 +20,9 @@ collections:
       - { label: "简介", name: "description", widget: "string", default: "这是一篇有意思的文章" }
       - { label: "发布日期", name: "publishDate", widget: "datetime", date_format: "YYYY-MM-DD" }
       - { label: "标签", name: "tags", widget: "list" }
-      - { label: "作者", name: "author", widget: "string", default:"duskdust" }
-      - { label: "展示", name: "featured", widget: "string", default:"true" }
-      - { label: "草稿", name: "draft", widget: "string", default:"false" }
+      - { label: "作者", name: "author", widget: "string", default: "duskdust" }
+      - { label: "展示", name: "featured", widget: "boolean", default: true }
+      - { label: "草稿", name: "draft", widget: "boolean", default: false }
       - { label: "正文", name: "body", widget: "markdown" }
 
 
