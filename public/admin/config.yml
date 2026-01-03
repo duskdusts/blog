@@ -1,8 +1,8 @@
 # 参考文档：https://decapcms.org/docs/configuration-options/
 backend:
   name: github
-  branch: main # 改为你的分支
-  repo: duskdusts/astro-decap-cms-oauth # 改为你的仓库
+  branch: master # 改为你的分支
+  repo: duskdusts/blog # 改为你的仓库
   site_domain: miruka.de # 改为你的域名
   base_url: https://miruka.de # 改为你的URL
   auth_endpoint: oauth 
@@ -10,19 +10,22 @@ backend:
 
 # 参考文档：https://decapcms.org/docs/collection-folder/
 collections:
-  - name: "202308" # 用于路由，例如，/admin/collections/blog
-    label: "2023年08月"  # UI 中显示名
-    folder: "src/content/post/2023/08月" # 存储文档的文件夹路径
+  - name: "札记" # 用于路由，例如，/admin/collections/blog
+    label: "札记"  # UI 中显示名
+    folder: "src/data/blog" # 存储文档的文件夹路径
     create: true # 允许用户在此集合中创建新文档
+    path: "{{year}}/{{slug}}"
     fields:  # 匹配 md 文档开头的 Front Matter ，参考：https://decapcms.org/docs/widgets/
       - { label: "标题", name: "title", widget: "string" }
       - { label: "简介", name: "description", widget: "string", default: "这是一篇有意思的文章" }
       - { label: "发布日期", name: "publishDate", widget: "datetime", date_format: "YYYY-MM-DD" }
       - { label: "标签", name: "tags", widget: "list" }
-      - { label: "ogImage", name: "ogImage", widget: "string", default: "/social-card.avif" }
+      - { label: "作者", name: "author", widget: "string", default:"duskdust" }
+      - { label: "展示", name: "featured", widget: "string", default:"true" }
+      - { label: "草稿", name: "draft", widget: "string", default:"false" }
       - { label: "正文", name: "body", widget: "markdown" }
 
 
 media_folder: "src/assets/images" # 文件将被存储在仓库中的位置
 public_folder: "/assets/images" # 上传媒体文件的 src 属性
-logo_url: https://888888.xyz/logo256.avif # 站点logo
+logo_url: https://miruka.de/avatar.webp # 站点logo
