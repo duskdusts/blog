@@ -18,7 +18,7 @@ collections:
     fields:  # 匹配 md 文档开头的 Front Matter ，参考：https://decapcms.org/docs/widgets/
       - { label: "标题", name: "title", widget: "string" }
       - { label: "简介", name: "description", widget: "string", default: "这是一篇有意思的文章" }
-      - { label: "发布日期", name: "publishDate", widget: "datetime", date_format: "YYYY-MM-DD" }
+      - { label: "发布日期", name: "pubDatetime", widget: "datetime", date_format: "YYYY-MM-DD" }
       - { label: "标签", name: "tags", widget: "list" }
       - { label: "作者", name: "author", widget: "string", default: "duskdust" }
       - { label: "展示", name: "featured", widget: "boolean", default: true }
